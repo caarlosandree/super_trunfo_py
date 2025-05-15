@@ -75,27 +75,27 @@ O objetivo é criar uma experiência visual interativa onde o jogador escolhe um
 
 ## Estrutura do Projeto
 
-    super_trunfo_py/
+super_trunfo_py/
 ├── src/
-│   ├── init.py
-│   ├── gui/
-│   │   ├── init.py
-│   │   ├── gui.py          # Loop principal da GUI, estados, eventos
-│   │   ├── drawing.py      # Funções de desenho genéricas (texto, carta)
-│   │   ├── layouts.py      # Funções de desenho de layouts específicos (mão, comparação, seleção)
-│   │   └── utils.py        # Utilitários da GUI (dimensões, fontes, formatação)
-│   ├── db/
-│   │   ├── init.py
-│   │   └── db.py           # Conexão e operações de banco de dados
-│   ├── game/
-│   │   ├── init.py
-│   │   ├── carta.py        # Definição da classe Carta
-│   │   ├── escolha_com.py  # Lógica de escolha do computador
-│   │   └── escolha_usuario.py # Lógica de sorteio de mão inicial
-│   ├── config.py         # Configurações globais (DB, tamanho da mão)
-│   └── main.py           # Ponto de entrada principal
-├── fontes/               # Arquivos das fontes customizadas (.ttf)
-└── README.md             # Este arquivo!
+│ ├── init.py
+│ ├── gui/
+│ │ ├── init.py
+│ │ ├── gui.py # Loop principal da GUI, estados, eventos
+│ │ ├── drawing.py # Funções de desenho genéricas (texto, carta)
+│ │ ├── layouts.py # Funções de desenho de layouts específicos (mão, comparação, seleção)
+│ │ └── utils.py # Utilitários da GUI (dimensões, fontes, formatação)
+│ ├── db/
+│ │ ├── init.py
+│ │ └── db.py # Conexão e operações de banco de dados
+│ ├── game/
+│ │ ├── init.py
+│ │ ├── carta.py # Definição da classe Carta
+│ │ ├── escolha_com.py # Lógica de escolha do computador
+│ │ └── escolha_usuario.py # Lógica de sorteio de mão inicial
+│ ├── config.py # Configurações globais (DB, tamanho da mão)
+│ └── main.py # Ponto de entrada principal
+├── fontes/ # Arquivos das fontes customizadas (.ttf)
+└── README.md # Este arquivo!
 
 
 ## Próximos Passos (Sugestões de Melhoria)
